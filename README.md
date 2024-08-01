@@ -6,7 +6,7 @@ In order to run the app in development mode for pm2 cluster, do the following:
 
 - Open 2 node terminals
 - On the first one, run `npm run pm2-all-cluster-dev`
-- On the second one, run `npm run watch:pm2`
+- On the second one, run `npm run watch:pm2` 
 - That's all, it'll clean the dist folder and create a new one and also when any changes occur in the system it'll 
 stop the current instance(s), clean the dist folder again, create a new one and reload the instance(s). 
 
